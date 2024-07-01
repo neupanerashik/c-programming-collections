@@ -1,17 +1,21 @@
 #include <stdio.h>
 
-void main() {
+void main()
+{
     int n =5;
-     printf("Right-Angled Mirrored Triangle Pattern:\n");
+    printf("Right-Angled Mirrored Inverted Triangle Pattern:\n");
 
-     for( int i = n; i >= 1; i--) {
-        for(int j = 1 ; j < i; j++){
+    for (int i = 1; i <= n; i++) {
+
+        for (int j = 1; j <= n -i; j++) {
             printf("  ");
         }
-        for(int j = 1; j <= n + 1 -i; j++ ){
+
+        for (int j = 1; j <= i; j++) {
             printf("* ");
         }
+
         printf("\n");
-     }
-     return;
+    }
+    return;
 }
