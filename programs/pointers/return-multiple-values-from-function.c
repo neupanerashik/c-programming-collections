@@ -3,21 +3,22 @@
 // add is the short name for address
 void compare(int a, int b, int* add_great, int* add_small)
 {
-    if (a > b) {
-
+    if (a > b)
+    {
         // a is stored in the address pointed
         // by the pointer variable *add_great
         *add_great = a;
         *add_small = b;
     }
-    else {
+    else
+    {
         *add_great = b;
         *add_small = a;
     }
 }
 
 // Driver code
-int main()
+void main()
 {
     int great, small, x, y;
 
@@ -30,5 +31,5 @@ int main()
     printf("\nThe greater number is %d and the smaller number is %d",
            great, small);
 
-    return 0;
+    return;
 }
