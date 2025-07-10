@@ -50,6 +50,5 @@ void main()
     // Print the result
     printf("The value of f(x) is: %lf\n", result);
 
-    return 0;
-
+    getch();
 }

@@ -44,7 +44,7 @@ void main()
 
     fp = fopen("student.txt", "w");
 
-    for(i=0; i<; i++)
+    for(i=0; i<2; i++)
     {
         fprintf(fp, "%d %s %s %d %d %d\n", s[i].rollno,s[i].name, s[i].address, s[i].dob.dd, s[i].dob.mm, s[i].dob.yy);
     }
